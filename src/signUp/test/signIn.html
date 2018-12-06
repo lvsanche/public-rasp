@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get Planning</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" type="text/css" href="/shared/css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="/shared/css/global.css" />
+        <link rel="stylesheet" type="text/css" href="/shared/css/calendar.css" />
+        <link rel="shortcut icon" type="image/png" href="/shared/icons/favicon-96x96.png"/>
+        <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+    </head>
+    <body>
+        <header class="l-header header">
+        <div>
+                <a href="/" class="header-logo">
+                        <img class="icon" src="/shared/icons/logo.png" alt="Raspberry">
+                </a>
+                <label id="nav-menu" class="btn-right" onclick="menuPress()"><i class="fas fa-bars"></i></label>
+        </div>
+        <nav class="nav">
+                <ul id="nav-list" class="is-hidden">
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/signIn">Sign In</a></li>
+                        <li><a href="/signUp">Sign Up</a></li>
+                </ul>
+        </nav>
+</header>
+
+        <main class="l-content">
+           <div class="card-w-header">
+    <h1 class=error-text>User Exists</h1>
+    <form id="sign-in-form"  action='/signIn' method="post" class="card-form">
+        <ul id="errors" class="errorContainer"></ul>
+        <label>Email</label>
+        <input id="email"
+            name="email"
+            type="email"
+            value="test123@gmail.com"
+            autocomplete="off"/>
+        <label>Password</label>
+        <input id="password"
+            name="password"
+            type="password"/>
+        <div class="btn-container">
+                <a class="btn btn-cancel" href="/">Cancel</a>
+                <button class="btn" type="submit">Submit</button>
+        </div>
+        <div>
+            <a href="/signUp" >Not a member? Join.</a>
+        </div>
+    </form>
+</div>
+           <div class="bottom-spacer">
+                <label>Raspberry™</label>
+                <a href="https://luissanchez.us">Developer's Site</a>
+           </div>
+        </main>
+    </body>
+    <script src="/signIn/views/signIn.js"></script>
+    <script src="/shared/modules/general.js"></script>
+</html>

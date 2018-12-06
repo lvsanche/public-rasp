@@ -1,0 +1,46 @@
+<div class="card-w-header">
+    <h1>Add New Meals</h1>
+    <form id="new-meal-form" onsubmit="handleNewMeals()" method="post" class="card-form">
+        <label class="title">Date</label>
+        <select id="day-select" class="day-selector" name="date">
+            <option value={{sundayValue}}>{{month}} Sun - {{sundayDate}}</option>
+            <option>Mon - </option>
+            <option>Tue - </option>
+            <option>Wed - </option>
+            <option>Thu - </option>
+            <option>Fri - </option>
+            <option>Sat - </option>
+        </select>
+
+        <div class="container">
+            <label class="title">Breakfast</label>
+            <input id='breakfast-input' type='hidden' name='breakfast'/>
+            {{breakfast}}
+        </div>
+        <div class="container">
+            <label class="title">Lunch</label>
+            <input id='lunch-input' type='hidden' name='lunch'/>
+            {{lunch}}
+        </div>
+        <div class="container">
+            <label class="title">Dinner</label>
+            <input id='dinner-input' type='hidden' name='dinner'/>
+            {{dinner}}
+        </div>
+        
+        <div class="container">
+            <label class="title">Snacks</label>
+            <input id='snacks-input' type='hidden' name='snacks'/>
+            {{snacks}}
+        </div>
+        <div>
+            <a class="btn" href="/recipes/all">Browse Recipes</a>
+        </div>
+        <div>
+                <button type="button" 
+                class="btn btn-cancel" 
+                onclick="goBack()">Cancel</button> 
+                <button type="submit" class="btn">Submit</button>    
+        </div>
+    </form>
+</div>

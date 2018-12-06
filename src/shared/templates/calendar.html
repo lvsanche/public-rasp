@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130487963-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-130487963-1');
+        </script>
+        <title>Get Planning</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/shared/css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="/shared/css/global.css" />
+        <link rel="shortcut icon" type="image/png" href="/shared/icons/favicon-96x96.png"/>
+        <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+    </head>
+    <body>
+        {{navbar}}
+        <main class="l-content">
+                <div class="contentHeader">
+                        <button id="week-back" type="button" class="btn"><i class="fas fa-angle-double-left"></i></button>
+                        <label id="week-of"></label>
+                        <button id="week-forward" type="button" class="btn"><i class="fas fa-angle-double-right"></i></button>
+                </div>
+           {{main}}
+                <div class="bottom-spacer">Raspberry TM</div>
+                <a id="go-shop" href={{shop}} style= "bottom: 35vw; font-size: 1.1rem;" class="btn round bottom-right"><i class="fas fa-shopping-basket"></i></a>
+                <a id="new-meal-btn" href={{addToCurrentCalendar}} class="btn round bottom-right"><i class="fas fa-plus"></i></a>
+        </main>
+    </body>
+    {{specificScript}}
+    <script src="/shared/modules/general.js"></script>
+</html>

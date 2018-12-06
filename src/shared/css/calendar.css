@@ -1,0 +1,40 @@
+.calendarDate {
+    height: 11vw;
+    width: 11vw;
+    border-radius: 2vw;
+    margin: 0;
+}
+
+.calendarDate:disabled {
+    background-color: white;
+    color: black;
+}
+
+#month {
+    font-size: 2rem;
+    min-width: 40vw;
+}
+
+.calendarHeader label {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.buttons {
+    margin: 7px 0;
+}
+
+.section {
+   margin-bottom: 9vw;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pressedBtn {
+    background-color: #4B2142;
+    color: white;
+    border: 3px solid black;
+}

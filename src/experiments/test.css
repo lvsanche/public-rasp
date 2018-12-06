@@ -1,0 +1,41 @@
+.calendarCanvas {
+    background-color: white;
+}
+
+button {
+    height: 10vw;
+    width: 10vw;
+}
+
+.calendarControllers label {
+    font-size: 2rem;
+}
+
+.calendarControllers {
+    padding: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buttons button:disabled {
+    background-color: darkgray;
+}
+
+.buttons {
+    margin: 5px 0;
+}
+.calendar {
+    width: 80vw;
+    border: 1px solid blue;
+    height: 95vw;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+.pressedBtn {
+    background-color: blue;
+    color: white;
+}

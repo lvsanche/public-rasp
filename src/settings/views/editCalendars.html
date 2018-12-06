@@ -1,0 +1,17 @@
+<div class="card-w-header">
+    <h1>Add or Remove Calendars</h1>
+    <div>
+        <h2 class="title">Default Calendar</h2>
+        <form method='POST' class="card-form long-form">
+            <select name="default">
+                {{calendarOptions}}
+            </select>
+            <div class="btn-container">
+                    <a class="btn btn-cancel" href="/">Cancel</a>
+                    <button class="btn" type="submit">Submit</button>        
+            </div>
+        </form>
+    </div>
+    
+    <a href="/calendar/new" class="btn">New Calendar</a>
+</div>

@@ -1,0 +1,412 @@
+/*base*/
+body, html {
+    font-size: 5vw;
+    max-width: 100vw;
+    background-color: #F1ECCE;
+}
+input {
+    border: 1px solid #ccc;
+}
+li {
+    padding: 0.15em 0;
+}
+textarea {
+    resize: vertical;
+    width: 90%;
+    border: 1px solid #ccc;
+    margin: auto;
+    display: block;
+    font-size: 0.80rem;
+    font-family: inherit;
+}
+
+/*layouts*/
+.l-header{
+    width: 100vw;
+}
+
+.l-content{
+    padding-top: 4rem;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*modules*/
+/*Center module*/
+.centerItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 60%; */
+}
+
+/*Icon Module*/
+.icon {
+    width: 60px;
+}
+
+/*Header Module*/
+.header {
+    background-color: #4B2142;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 20;
+    color: white;
+    position: fixed;
+}
+
+.nav i {
+    padding: 0.55rem;
+}
+
+.nav ul,
+.navbarList ul{
+    left: 0;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    background-color: #4B2142;
+    z-index: 20;
+    position: relative;
+    right: 0;
+}
+
+.nav li, .navbarList li {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav a,
+.navbarList a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav input {
+    font-size: 2rem;
+    width: 80%;
+}
+
+.navbarList {
+    display: inline-block;
+    padding: 0.5rem;
+    width: 60%;
+}
+
+.navBtnContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*LISTS*/
+.removeItem {
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Content Header*/ 
+.contentHeader{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3vw;
+    align-items: center;
+}
+
+.contentHeader label {
+    font-size: 1rem;
+    min-width: 40vw;
+    text-align: center;
+}
+.contentHeader strong {
+    font-size: 1.5rem;
+}
+
+/*Stacked Container*/
+.stackedContainer {
+    border: 1px solid #ccc;
+    padding: 1rem 0;
+    background-color: white;
+}
+
+/*Small Padding*/
+.container {
+    padding: 0.5rem;
+}
+
+/*2 cols container*/
+.two-cols {
+    display: flex;
+    justify-content: space-between;
+}
+.two-cols label:nth-child(1){
+    margin-left: 1rem;
+}
+.two-cols label:nth-child(2){
+    margin-right: 1rem;
+}
+
+.inner {
+    padding: 0.5em;
+    font-size: 0.75rem;
+    text-align: left;
+}
+.completePadding {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.current-week {
+    padding-bottom: 3rem;
+}
+
+/*Title Module*/
+.title {
+    /* position: relative; */
+    color: black;
+    display: inline-block;
+    margin: 1rem 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.small {
+    display: block;
+    margin: 0.2rem 2rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1rem;
+}
+
+/*Media Module*/
+.media {
+    display: inline-block;
+    width: 8vw;
+    height: 8vw;
+    border: 1px solid black;
+    position: relative;
+    top: 2vw;
+    left: 2vw;
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: #A7D3A6;
+    color:white;
+}
+
+
+/*Card Module*/
+.card,
+.card-w-header {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0.25rem;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+.card h1 {
+    font-size: 2rem;
+    padding: 0.25rem;
+}
+.card-w-header {
+    padding: 0;
+}
+.card-w-header h1 {
+    background-color: #4B2142;
+    font-size: 2rem;
+    padding: 0.25rem;
+    color: white;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Card Form Module*/
+.card-form {
+    font-size: 2rem;
+    width: 100%;
+}
+.card-form input,
+.card-form select {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    width: 95%;
+}
+
+.long-form,
+.contentHeader input,
+.long-form input{
+    font-size: .75rem;
+}
+.long-form-header {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+.long-form-subheader {
+    font-size: 1.25rem;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/*Styling for meals*/
+.mealsInput {
+    display: flex;
+    justify-content: space-evenly;
+}
+.mealsInput .btn {
+    padding: 0.5em;
+    margin: 0;
+}
+
+.mealsInput > input {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mealsSection {
+    margin: 0 0 1em 0;
+}
+
+/*LEft Margins*/
+.innerLeft {
+    margin-left: 2.5rem;
+}
+
+/*misc modules*/
+.btn {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #A7D3A6;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    border: 3px solid #A7D3A6;
+    display: inline-block;
+}
+
+.removeBtn{
+    background-color: white;
+    float: right;
+    padding-right: 1rem;
+}
+
+.btn.large {
+    font-size: 2rem;
+}
+.btn.round {
+    border-radius: 50%;
+    padding: 7vw 7vw;
+    font-size: 1.5rem;
+}
+
+.btn-right {
+    float: right;
+    font-size: 2rem;
+    padding: .7rem;
+    width: 9%;
+    text-align: center;
+}
+.bottom-right {
+    position: fixed;
+    bottom: 3vw;
+    right: 3vw;
+}
+
+.btn-cancel {
+    border: 3px solid #A7D3A6;
+    background-color: white;
+    color: black;
+}
+
+.btn-container {
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Recipe display module*/
+.fullWidth {
+    width: 100%;
+}
+
+.sub-title {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-evenly;
+}
+
+.spaced-list li {
+    /* margin: 0.25rem 0 0.25rem 0.25rem; */
+}   
+.spaced-list {
+    text-align: left;
+    padding: 0.5em;
+}
+
+.long-text li {
+    margin: 0.75rem 0 0.75rem 0.5rem;
+}
+
+.columns {
+    flex-direction: column;
+}
+
+.bottom-spacer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: auto;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 30vw;
+    background-color: #4B2142;
+    color: white;
+    /* margin-top: 10vw; */
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 5vw;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+.bottom-spacer > a {
+    color: white;
+}
+
+/*State*/
+.is-hidden{
+    display: none;
+}
+.is-visible{
+    display: block;
+}
+
+.hiddenTest {
+    opacity: 0;
+    transition-duration: 200ms;
+    transition-property: opacity;
+}
+
+.showTest {
+    opacity: 1;
+}
+
+
+.is-visible-flex {
+    display: flex;
+}
+
+/*ERRORS*/
+.errorContainer {
+    color: red;
+    font-weight: bolder;
+    text-align: left;
+}

@@ -1,0 +1,43 @@
+<div class="card-w-header ">
+    <h1>Share Calendar!</h1>
+    <div class="card-form">
+        <h2 class="title">Copy and Send</h2>
+        <select id="sharingCalendar" onchange="handleCalendarChange()">
+            {{calendarOptions}}
+        </select>
+        <input id="calendarID" value="{{initialCalendar}}" readonly/>
+        <button class="btn" type="button" onclick="copyInput()">Copy</button>
+    </div>
+</div>
+
+<div class="card-w-header">
+    <h1>Change Settings</h1>
+    <div>
+        <h2 class="title">Set Default</h2>
+        <form method='POST' action="/settings" class="card-form long-form">
+            <select name="default">
+                {{calendarOptions}}
+            </select>
+            <div class="btn-container">
+                    <a class="btn btn-cancel" href="/calendar">Cancel</a>
+                    <button class="btn" type="submit">Submit</button>        
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card-w-header">
+        <h1>Edit Calendars</h1>
+        <div>
+            <form method='POST' action="/settings/editCalendars" class="card-form long-form">
+                <ul>
+                    {{removeCalendars}}
+                </ul>
+                <div class="btn-container">
+                        <a class="btn btn-cancel" href="/calendar">Cancel</a>
+                        <button class="btn" type="submit">Submit</button>        
+                </div>
+            </form>
+        </div>
+    <a href="/calendar/new" class="btn">Add New Calendar</a>
+</div>

@@ -1,0 +1,23 @@
+<div class="card-w-header">
+    <h1>Add New Meals</h1>
+    <form id="new-recipe-form" action="/recipes/scrape" method="post" class="card-form">
+        <label>Websites supported</label>
+        <select id="website-select" name="website">
+                <option value="paleoleap">PaleoLeap.com</option>
+                <option value="all-recipes">AllRecipes.com</option>
+                <option value="bon-appetit">BonAppetit.com</option>
+                <option value="delish">Delish.com</option>
+                <option value="food-network">FoodNetwork.com</option>
+        </select>
+        <label>Direct URL</label>
+        <input
+            name="recipeURL"
+            type="text"
+            autocomplete="off"
+            required/>
+        <div>
+            <button class="btn btn-cancel" onclick="goBack()" type="button">Cancel</button>
+            <button class="btn" type="submit">Continue</button>
+        </div>
+    </form>
+</div>

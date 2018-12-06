@@ -1,0 +1,23 @@
+<div class="card-w-header">
+    <h1 class={{headerClass}}>{{cardHeader}}</h1>
+    <form id="sign-in-form"  action='/signIn' method="post" class="card-form">
+        <ul id="errors" class="errorContainer"></ul>
+        <label>Email</label>
+        <input id="email" 
+            name="email" 
+            type="email" 
+            value="{{email}}"
+            autocomplete="off"/>
+        <label>Password</label>
+        <input id="password" 
+            name="password" 
+            type="password"/>
+        <div class="btn-container">
+                <a class="btn btn-cancel" href="/">Cancel</a>
+                <button class="btn" type="submit">Submit</button>        
+        </div>
+        <div>
+            <a href="/signUp" >Not a member? Join.</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,24 @@
+<div class="card-w-header">
+    <form method="post" action="/recipes/new" class="long-form card-form">
+        <h1>Final chance to make changes</h1>
+        <h3 class="long-form-header">Name</h3><input name="name" type="text" value="{{name}}" required/>
+        <h3 class="long-form-header">URL</h3><textarea name="url" rows="2" required>{{url}}</textarea>
+        <h3 class="long-form-header">Servings</h3><input name="servings" type="text" value="{{servings}}" required/>
+        <div class="stackedContainer">
+            <h3 class="long-form-header">Ingredients</h3>
+            <ul class="ingredients">
+                {{ingredients}}
+            </ul>
+        </div>
+        <div class="stackedContainer">
+            <h3 class="long-form-header">Steps</h3>
+            <ul class="steps">
+                {{steps}}
+            </ul>
+        </div>
+        <div>
+            <a href="/calendar" class="btn btn-cancel" >Cancel</a>
+            <button class="btn" type="submit">Submit</button>
+        </div>
+    </form>
+</div>

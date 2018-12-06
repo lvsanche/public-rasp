@@ -1,0 +1,644 @@
+{
+    "ingredients": {
+        "almond": [
+            "almond butter",
+            "almonds",
+            "almond"
+        ],
+        "apple": [
+            "sweet-tart apple",
+            "honeycrisp apple",
+            "pink lady apple",
+            "winesap apple",
+            "apple"
+        ],
+        "artichoke": [
+            "artichoke"
+        ],
+        "asparagus": [
+            "asparagus"
+        ],
+        "avocado": [
+            "avocado"
+        ],
+        "bacon": [
+            "bacon fat",
+            "bacon"
+        ],
+        "basil": [
+            "dried basil leaves",
+            "basil leaves",
+            "basil sprigs",
+            "sprigs basil",
+            "fresh basil",
+            "basil"
+        ],
+        "bay": [
+            "bay leaves",
+            "bay leaf"
+        ],
+        "bean": [
+            "peruvian bean",
+            "refried bean",
+            "pinto bean",
+            "black bean",
+            "lima bean",
+            "bean"
+        ],
+        "beef": [
+            "ground beef",
+            "roast beef",
+            "beef chuck",
+            "beef broth",
+            "beef"
+        ],
+        "beer": [
+            "mexican lager beer",
+            "dark beer",
+            "beer"
+        ],
+        "bok choy": [
+            "baby bok choy",
+            "bok choy"
+        ],
+        "brandy": [
+            "brandy"
+        ],
+        "bread": [
+            "breadcrumbs"
+        ],
+        "broccoli": [
+            "broccoli"
+        ],
+        "brussel sprout": [
+            "brussel sprout"
+        ],
+        "brussels sprouts": [
+            "brussels sprouts"
+        ],
+        "bun": [
+            "hamburger bun",
+            "brioche bun",
+            "hotdog bun"
+        ],
+        "butter": [
+            "unsalted butter",
+            "salted butter",
+            "melted butter",
+            "butter"
+        ],
+        "cabbage": [
+            "red cabbage",
+            "cabbage"
+        ],
+        "campanelle": [
+            "campanelle"
+        ],
+        "carrot": [
+            "carrot"
+        ],
+        "cauliflower": [
+            "cauliflower"
+        ],
+        "celery": [
+            "celery"
+        ],
+        "cheese": [
+            "moterrey jack cheese",
+            "mexican cheese blend",
+            "mozzarella cheese",
+            "parmesan cheese",
+            "oaxaca cheese",
+            "nacho cheese"
+        ],
+        "chicken": [
+            "boneless skinless chicken breast",
+            "skinless chicken breast",
+            "rotisserie chicken",
+            "chicken breast",
+            "chicken wings",
+            "chicken thigh",
+            "whole chicken",
+            "chicken broth",
+            "chicken stock",
+            "chicken"
+        ],
+        "chile": [
+            "thai bird chile",
+            "habanero chile",
+            "fresno chile",
+            "serano chile",
+            "green chile",
+            "thai chile",
+            "chile"
+        ],
+        "chives": [
+            "chives"
+        ],
+        "cilantro": [
+            "cilantro"
+        ],
+        "clam": [
+            "clams in shell",
+            "clam juice",
+            "small clam",
+            "clam"
+        ],
+        "coconut": [
+            "coconut milk",
+            "coconut oil",
+            "coconut"
+        ],
+        "coriander": [
+            "ground coriander",
+            "fresh coriander",
+            "dried coriander",
+            "coriander"
+        ],
+        "corn": [
+            "frozen corn",
+            "corn"
+        ],
+        "cornichon": [
+            "cornichon"
+        ],
+        "cucumber": [
+            "cucumber"
+        ],
+        "cumin": [
+            "ground cumin",
+            "cumin"
+        ],
+        "cummin": [
+            "ground cummin",
+            "cummin"
+        ],
+        "dough": [
+            "pizza dough"
+        ],
+        "drumstick": [
+            "drumstick"
+        ],
+        "duck": [
+            "duck fat",
+            "duck"
+        ],
+        "egg": [
+            "egg whites",
+            "egg yolk",
+            "egg"
+        ],
+        "eggplant": [
+            "chinese eggplant",
+            "asian eggplant",
+            "eggplant"
+        ],
+        "fat": [
+            "paleo cooking fat",
+            "cooking fat",
+            "fat"
+        ],
+        "fennel": [
+            "fennel seeds",
+            "fennel bulb"
+        ],
+        "fish": [
+            "fish broth"
+        ],
+        "flour": [
+            "all-purpose flour",
+            "self rising flour",
+            "bleached flour",
+            "bread flour",
+            "flour"
+        ],
+        "garlic": [
+            "garlic powder",
+            "garlic clove",
+            "clove garlic",
+            "garlic head",
+            "garlic salt",
+            "garlic"
+        ],
+        "ginger": [
+            "ground ginger",
+            "fresh ginger",
+            "ginger tea",
+            "ginger ale",
+            "ginger"
+        ],
+        "grouper": [
+            "grouper"
+        ],
+        "half": [
+            "half and half",
+            "half-and-half"
+        ],
+        "ham": [
+            "deli ham",
+            "ham"
+        ],
+        "heavy cream": [
+            "heavy cream"
+        ],
+        "ice cream": [
+            "vanilla ice cream",
+            "ice cream"
+        ],
+        "kale": [
+            "purple kale",
+            "red kale",
+            "kale"
+        ],
+        "ketchup": [
+            "ketchup"
+        ],
+        "leaves": [
+            "marjoram leaves",
+            "bay leaves"
+        ],
+        "leek": [
+            "leek"
+        ],
+        "lemon": [
+            "lemon juice",
+            "lemon zest",
+            "lemon"
+        ],
+        "lettuce": [
+            "little gem lettuce",
+            "romaine lettuce",
+            "iceberg lettuce",
+            "lettuce"
+        ],
+        "lime": [
+            "lime juice",
+            "lime zest",
+            "lime"
+        ],
+        "linguine": [
+            "linguine"
+        ],
+        "maple": [
+            "pure maple syrup",
+            "maple syrup"
+        ],
+        "marjoram": [
+            "marjoram leaves",
+            "marjoram"
+        ],
+        "mayonnaise": [
+            "paleo mayonnaise",
+            "vegan mayonnaise",
+            "mayonnaise"
+        ],
+        "melon": [
+            "honeydew melon",
+            "melon"
+        ],
+        "milk": [
+            "almond milk",
+            "whole milk",
+            "almondmilk",
+            "goat milk",
+            "skim milk",
+            "milk"
+        ],
+        "mint": [
+            "mint extract",
+            "mint leaves",
+            "mint"
+        ],
+        "miso": [
+            "yellow miso paste",
+            "miso"
+        ],
+        "mozzarella": [
+            "low moisture mozzarella",
+            "low-moisture mozzarella",
+            "fresh mozzarella",
+            "mozzarella"
+        ],
+        "mushroom": [
+            "shitake mushroom",
+            "white mushroom",
+            "mushroom"
+        ],
+        "mustard": [
+            "spicy brown mustard",
+            "english mustard",
+            "yellow mustard",
+            "dijon mustard",
+            "mustard seed",
+            "mustard"
+        ],
+        "oil": [
+            "extra-virgin oil olive",
+            "extra-virgin olive oil",
+            "grapeseed oil",
+            "vegetable oil",
+            "cooking oil",
+            "avocado oil",
+            "neutral oil",
+            "coconut oil",
+            "canola oil",
+            "walnut oil",
+            "sesame oil",
+            "peanut oil",
+            "oil olive",
+            "olive oil",
+            "oil"
+        ],
+        "olive": [
+            "picual olive",
+            "black olive",
+            "olive"
+        ],
+        "onion": [
+            "yellow onion",
+            "sweet onion",
+            "green onion",
+            "red onion",
+            "onion"
+        ],
+        "oregano": [
+            "fresh oregano",
+            "dried oregano",
+            "oregano"
+        ],
+        "paprika": [
+            "smoked sweet paprika",
+            "hungarian paprika",
+            "spanish paprika",
+            "smoked paprika",
+            "sweet paprika",
+            "paprika"
+        ],
+        "parmesan": [
+            "grated parmesan",
+            "parmesan"
+        ],
+        "parmigiano-reggiano": [
+            "parmigiano-reggiano"
+        ],
+        "parsley": [
+            "flat-leaf parseley",
+            "italian parseley",
+            "parsley flakes",
+            "parsley leaves",
+            "fresh parsley",
+            "parsley"
+        ],
+        "pea": [
+            "frozen pea",
+            "fresh pea",
+            "snow pea",
+            "snap pea",
+            "pea"
+        ],
+        "pepper": [
+            "anaheim chile pepper",
+            "yellow bell pepper",
+            "green bell pepper",
+            "red pepper flakes",
+            "ground red pepper",
+            "jalapeno pepper",
+            "red bell pepper",
+            "jalapeño pepper",
+            "cayenne pepper",
+            "ground pepper",
+            "black pepper",
+            "bell pepper",
+            "pepper"
+        ],
+        "pork": [
+            "bone-in pork loin",
+            "pork tenderloin",
+            "ground pork",
+            "minced pork",
+            "pork chop",
+            "pork"
+        ],
+        "potato": [
+            "yukon gold potato",
+            "russet potato",
+            "sweet potato",
+            "gold potato",
+            "red potato",
+            "potato"
+        ],
+        "powder": [
+            "baking powder",
+            "curry powder",
+            "onion powder",
+            "chili powder",
+            "powder"
+        ],
+        "prosciutto": [
+            "prosciutto"
+        ],
+        "puff pastry": [
+            "puff pastry"
+        ],
+        "queso": [
+            "queso asadero",
+            "ques"
+        ],
+        "radicchio": [
+            "radicchio leaves",
+            "radicchio"
+        ],
+        "rice": [
+            "cooked white rice",
+            "cooked rice",
+            "white rice",
+            "brown rice",
+            "rice"
+        ],
+        "ricotta": [
+            "fresh ricotta",
+            "ricotta"
+        ],
+        "rosemary": [
+            "sprigs rosemary",
+            "fresh rosemary",
+            "dried rosemary",
+            "rosemary"
+        ],
+        "salmon": [
+            "salmon fillets",
+            "grilled salmon",
+            "salmon cutlet",
+            "salmon"
+        ],
+        "salt": [
+            "salt & pepper",
+            "kosher salt",
+            "garlic salt",
+            "table salt",
+            "sea salt",
+            "salt"
+        ],
+        "sauce": [
+            "worcestershire sauce",
+            "teriyaki sauce",
+            "marinara sauce",
+            "soy sauce",
+            "hot sauce",
+            "bbq sauce",
+            "sauce"
+        ],
+        "sausage": [
+            "sweet italian sausage",
+            "andouille sausage",
+            "italian sausage"
+        ],
+        "seasoning": [
+            "old bay seasoning",
+            "poultry seasoning",
+            "italian seasoning",
+            "seasoning blend",
+            "cajun seasoning",
+            "pork seasoning",
+            "seasoning"
+        ],
+        "sesame": [
+            "toasted sesame oil",
+            "sesame seed",
+            "sesame oil"
+        ],
+        "shallot": [
+            "shallot"
+        ],
+        "shrimp": [
+            "large shrimp",
+            "jumbo shrimp",
+            "shrimp"
+        ],
+        "soda": [
+            "baking soda",
+            "soda water",
+            "club soda"
+        ],
+        "sour cream": [
+            "sour cream"
+        ],
+        "spaghetti": [
+            "spaghetti"
+        ],
+        "spinach": [
+            "baby spinach",
+            "spinach"
+        ],
+        "spray": [
+            "cooking spray"
+        ],
+        "squash": [
+            "buttercup squash",
+            "butternut squash",
+            "squash"
+        ],
+        "starch": [
+            "corn starch",
+            "rice starch",
+            "cornstarch"
+        ],
+        "steak": [
+            "steak"
+        ],
+        "sugar": [
+            "light brown sugar",
+            "dark brown sugar",
+            "granulated sugar",
+            "powdered sugar",
+            "powder sugar",
+            "white sugar",
+            "brown sugar",
+            "cane sugar",
+            "raw sugar",
+            "sugar"
+        ],
+        "sun flower": [
+            "sun flower seed",
+            "sun flower oil"
+        ],
+        "thyme": [
+            "fresh thyme",
+            "dried thyme",
+            "thyme"
+        ],
+        "tofu": [
+            "extra-firm tofu",
+            "firm tofu",
+            "tofu"
+        ],
+        "tomato": [
+            "cherry tomato",
+            "grape tomato",
+            "tomato paste",
+            "tomato sauce",
+            "tomato"
+        ],
+        "tortilla": [
+            "flour tortilla",
+            "corn tortilla",
+            "tortilla"
+        ],
+        "tuna": [
+            "tuna steaks",
+            "tuna"
+        ],
+        "turnip": [
+            "turnip"
+        ],
+        "vanilla": [
+            "vanilla extract",
+            "vanilla bean",
+            "vanilla"
+        ],
+        "vegetable shortening": [
+            "vegetable shortening"
+        ],
+        "vinegar": [
+            "apple cider vinegar",
+            "rice wine vinegar",
+            "balsamic vinegar",
+            "cider vinegar",
+            "white vinegar",
+            "rice vinegar",
+            "vinegar"
+        ],
+        "walnuts": [
+            "whole walnuts",
+            "walnuts"
+        ],
+        "wasabi": [
+            "wasabi paste",
+            "wasabi root",
+            "wasabi"
+        ],
+        "water": [
+            "cold water",
+            "hot water",
+            "water"
+        ],
+        "wine": [
+            "dry white wine",
+            "white wine",
+            "red wine",
+            "wine"
+        ],
+        "yam": [
+            "yam"
+        ],
+        "yogurt": [
+            "vanilla yogurt",
+            "greek yogurt",
+            "plain yogurt",
+            "yogurt"
+        ],
+        "zucchini": [
+            "zucchini"
+        ]
+    }
+}
